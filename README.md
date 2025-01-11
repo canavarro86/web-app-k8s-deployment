@@ -4,15 +4,6 @@ This repository contains Kubernetes manifests for deploying a web application in
 
 ## Files and Structure
 
-web-app-k8s-deployment/
-├── manifests/
-│   ├── deployment.yaml
-│   ├── service.yaml
-│   ├── hpa.yaml
-│   ├── pdb.yaml
-│   ├── priorityclass.yaml
-├── README.md
-
 - `manifests/`
   - `deployment.yaml`: Defines the deployment configuration for the web application.
   - `service.yaml`: Exposes the application within the Kubernetes cluster.
